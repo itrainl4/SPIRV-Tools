@@ -88,7 +88,7 @@ target_link_libraries(SPIRV-Tools-reduce
   PUBLIC ${SPIRV_TOOLS}
   PUBLIC SPIRV-Tools-opt)
 
-set_property(TARGET SPIRV-Tools-reduce PROPERTY FOLDER "SPIRV-Tools libraries")
+set_property(TARGET SPIRV-Tools-reduce PROPERTY FOLDER "External/SPIRV-Tools/SPIRV-Tools libraries")
 spvtools_check_symbol_exports(SPIRV-Tools-reduce)
 
 if(ENABLE_SPIRV_TOOLS_INSTALL)
